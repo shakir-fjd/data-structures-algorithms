@@ -36,6 +36,8 @@ local.properties
 .loadpath
 .factorypath
 /src/main/resources/rebel.xml
+*.iml
+out/
 
 # External tool builders
 .externalToolBuilders/**
