@@ -1,0 +1,31 @@
+1. If We Want to find the Lowest Second element or something like that we can use two variables, lowest and
+   second lowest and then assign the lowest to second lowest and current to lowest if the condition satisfies and
+   then we need validate the condition by comparing the current with the second lowest if no current element is greater
+   than the already existing lowest element.<See arrays {02}.>
+
+        The Above Pattern will make use of,
+                        TIME COMPLEXITY  - O(N).
+                        SPACE COMPLEXITY - O(1).
+
+2. To Remove the Duplicates or Move the unique elements to the starting position of array, we can do that in O(N) by
+   Using the two pointer approach, initialize a pointer with 1 and start iterating the array using the other pointer
+   and move all the elements which are not equal to a[j]=a[i-1].<See arrays {04}.>
+
+        The Above Pattern will make use of,
+                TIME COMPLEXITY  - O(N).
+                SPACE COMPLEXITY - O(1).
+
+3. To Rotate the array Left (or) Right with K position we just need the reverse the array based on 3 conditions. It is
+   different for Left rotation and Right rotation.
+            <i> RIGHT ROTATION:
+                    -> Reverse the array from 0 to n-1.
+                    -> Reverse the array from 0 to k-1.
+                    -> Reverse the array from k to n-1.
+            <ii>  LEFT ROTATION:
+                    -> Reverse the array from 0 to k-1.
+                    -> Reverse the array from k to n-1.
+                    -> Reverse the array from 0 to n-1.
+
+        The Above Pattern will make use of,
+                TIME COMPLEXITY  - O(N).
+                SPACE COMPLEXITY - O(1).
